@@ -38,6 +38,10 @@
           
           box-shadow:0px 4px 3px #ff66a3;
       }
+      .square-box{
+        width: 150px;
+        aspect-ratio: 1 / 1;
+      }
       
       input{
         outline-color: #C98474;
