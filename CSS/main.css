@@ -225,6 +225,7 @@ body{
 .item-link{
     position: absolute;
     top: 50%;
+    cursor: pointer;
     left: 50%;
     transform: translate(-75%,-50%);
     color: #d3325f;
@@ -279,6 +280,9 @@ body{
     width: 150px;
     transition: all 2s ease;
     opacity: 0.9;
+}
+.item-img-pointer{
+    cursor: pointer;
 }
 
 .img-1{
