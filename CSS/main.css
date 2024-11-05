@@ -208,6 +208,7 @@ body{
 .item-conatiner{
     position: relative;
     /*for the link*/
+    cursor: pointer;
     overflow: hidden;
     background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
     transition: all 2s ease;
@@ -224,6 +225,7 @@ body{
 .item-link{
     position: absolute;
     top: 50%;
+    cursor: pointer;
     left: 50%;
     transform: translate(-75%,-50%);
     color: #d3325f;
@@ -279,6 +281,9 @@ body{
     transition: all 2s ease;
     opacity: 0.9;
 }
+.item-img-pointer{
+    cursor: pointer;
+}
 
 .img-1{
     left: 0%;
@@ -331,6 +336,8 @@ body{
 
 .review-img {
     width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 /*footer*/
 #back-to-top {
